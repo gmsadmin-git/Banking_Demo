@@ -21,7 +21,7 @@
       * Program:     BBANK10P.CBL                                     *
       * Layer:       Business logic                                   *
       * Function:    Signon to system to identify user                *
-      *****************************************************************
+      *********************test****************************************
 
        IDENTIFICATION DIVISION.
        PROGRAM-ID.
