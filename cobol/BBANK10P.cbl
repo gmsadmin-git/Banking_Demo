@@ -13,7 +13,7 @@
       * SHALL NOT APPLY.                                              *
       * TO THE EXTENT PERMITTED BY LAW, IN NO EVENT WILL              *
       * ROCKET SOFTWARE HAVE ANY LIABILITY WHATSOEVER IN CONNECTION   *
-      * WITH THIS SOFTWARE. testaiboat                                *
+      * WITH THIS SOFTWARE. testaiboatjenkins                         *
       *                                                               *
       *****************************************************************
 
