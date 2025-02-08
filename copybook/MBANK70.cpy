@@ -4,7 +4,7 @@
       *   Date Created  11/08/2021
       *   Time Created  19:41:42
 
-      *  Input Data For Map BANK70A
+      *  Input Data For Map BANK70A-MBANK70
          01 BANK70AI REDEFINES MAPAREA.
             03 FILLER                         PIC X(12).
             03 TXT01L                         PIC S9(4) COMP.
