@@ -22,7 +22,7 @@
       *---------------------------------------------------------------*
       * Procedure code to populate screen titles                      *
       *****************************************************************
-           CALL 'SCUSTOMP' USING SCREEN-TITLES.
+      *     CALL 'SCUSTOMP' USING SCREEN-TITLES.
            MOVE SCREEN-TITLE1 TO HEAD1O IN <<SCRN>>.
            MOVE SCREEN-TITLE2 TO HEAD2O IN <<SCRN>>.
 
