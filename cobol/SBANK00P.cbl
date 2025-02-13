@@ -14,7 +14,7 @@
       * TO THE EXTENT PERMITTED BY LAW, IN NO EVENT WILL              *
       * ROCKET SOFTWARE HAVE ANY LIABILITY WHATSOEVER IN CONNECTION   *
       * WITH THIS SOFTWARE.                                          *
-      * tested by trisha                                                               *
+      *                                                             *
       *****************************************************************
 
       *****************************************************************
@@ -27,7 +27,7 @@
        PROGRAM-ID.
            SBANK00P.
        DATE-WRITTEN.
-           September 2002.
+           September 2003.
        DATE-COMPILED.
            Today.
 
