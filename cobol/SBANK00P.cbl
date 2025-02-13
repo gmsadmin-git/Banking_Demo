@@ -18,7 +18,7 @@
       *****************************************************************
 
       *****************************************************************
-      * Program:     SBANK00P.CBL (CICS Version)                      *
+      * Program:     SBANK00P.CBL (CICS Version)   test               *
       * Layer:       Screen handling                                  *
       * Function:    Screen handling control module                   *
       *****************************************************************
