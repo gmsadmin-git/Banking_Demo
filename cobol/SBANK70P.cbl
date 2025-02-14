@@ -12,7 +12,7 @@
       * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE,         *
       * SHALL NOT APPLY.                                              *
       * TO THE EXTENT PERMITTED BY LAW, IN NO EVENT WILL              *
-      * ROCKET SOFTWARE HAVE ANY LIABILITY WHATSOEVER IN DEMO1        *
+      * ROCKET SOFTWARE HAVE ANY LIABILITY WHATSOEVER IN DEMO2        *
       * WITH THIS SOFTWARE.                                           *
       *                                                               *
       *****************************************************************
