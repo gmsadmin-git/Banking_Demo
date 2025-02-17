@@ -27,9 +27,9 @@
        PROGRAM-ID.
            SBANK00P.
        DATE-WRITTEN.
-           September 2008.
+           September 21.
        DATE-COMPILED.
-           321.
+           testing.
 
        ENVIRONMENT DIVISION.
 
