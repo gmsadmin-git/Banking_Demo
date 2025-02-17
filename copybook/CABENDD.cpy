@@ -23,7 +23,7 @@
       * Work areas for abend routine                                  *
       *****************************************************************
        01  ABEND-DATA.
-         05  ABEND-CODE                            PIC X(9)
+         05  ABEND-CODE                            PIC X(10)
              VALUE SPACES.
          05  ABEND-CULPRIT                         PIC X(8)
              VALUE SPACES.
