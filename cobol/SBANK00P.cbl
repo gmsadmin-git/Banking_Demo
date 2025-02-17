@@ -27,9 +27,9 @@
        PROGRAM-ID.
            SBANK00P.
        DATE-WRITTEN.
-           September 2007.
+           September 2008.
        DATE-COMPILED.
-           yesterday.
+           future.
 
        ENVIRONMENT DIVISION.
 
