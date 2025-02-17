@@ -29,7 +29,7 @@
              VALUE SPACES.
          05  ABEND-REASON                          PIC X(50)
              VALUE SPACE.
-         09  ABEND-MSG                             PIC X(72)
+         12  ABEND-MSG                             PIC X(72)
              VALUE SPACES.
 
       * $ Version 5.99c sequenced on Wednesday 3 Mar 2011 at 1:00pm
