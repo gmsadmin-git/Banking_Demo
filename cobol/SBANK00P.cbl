@@ -29,7 +29,7 @@
        DATE-WRITTEN.
            September 2008.
        DATE-COMPILED.
-           test.
+           321.
 
        ENVIRONMENT DIVISION.
 
