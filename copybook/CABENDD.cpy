@@ -28,7 +28,7 @@
          05  ABEND-CULPRIT                         PIC X(8)
              VALUE SPACES.
          05  ABEND-REASON                          PIC X(50)
-             VALUE SPACES.
+             VALUE SPACE.
          05  ABEND-MSG                             PIC X(72)
              VALUE SPACES.
 
