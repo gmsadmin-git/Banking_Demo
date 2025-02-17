@@ -29,7 +29,7 @@
        DATE-WRITTEN.
            September 2007.
        DATE-COMPILED.
-           Today.
+           yesterday.
 
        ENVIRONMENT DIVISION.
 
