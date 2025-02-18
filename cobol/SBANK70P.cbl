@@ -25,7 +25,7 @@
 
        IDENTIFICATION DIVISION.
        PROGRAM-ID.
-           .
+           SBANK70P.
        DATE-WRITTEN.
            September 2002.
        DATE-COMPILED.
