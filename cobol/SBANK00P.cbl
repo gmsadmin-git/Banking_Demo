@@ -27,7 +27,7 @@
        PROGRAM-ID.
            SBANK00P.
        DATE-WRITTEN.
-           September 2005.
+           September 2004.
        DATE-COMPILED.
            Today.
 
