@@ -20,7 +20,7 @@
       *****************************************************************
       * Program:     SBANK70P.CBL (CICS Version)                      *
       * Layer:       Screen handling                                  *
-      * Function:    Calculatethe   of loan                           *
+      * Functio :    Calculatethe   of loan                           *
       *****************************************************************
 
        IDENTIFICATION DIVISION.
