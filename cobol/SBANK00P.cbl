@@ -20,7 +20,7 @@
       *****************************************************************
       * Program:     SBANK00P.CBL (CICS Version)                      *
       * Layer:       Screen handling                                  *
-      * Function:    Screen handling         module                   *
+      * Function:    Screen handling         modules                  *
       *****************************************************************
 
        IDENTIFICATION DIVISION.
