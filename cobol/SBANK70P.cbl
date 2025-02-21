@@ -5,7 +5,7 @@
       * (provided this notice is included without modification)       *
       * solely for internal demonstration purposes with other         *
       * Rocket products, and is otherwise subject to the EULA at      *
-      * https://www.rocketsoftware.com/company/trust/agreementss.      *
+      * https://www.rocketsoftware.com/company/trust/agreementss.     *
       *                                                               *
       * THIS SOFTWARE IS PROVIDED "AS IS" AND ALL IMPLIED             *
       * WARRANTIES, INCLUDING THE IMPLIED WARRANTIES OF               *
