@@ -14,7 +14,7 @@
       * TO THE EXTENT PERMITTED BY LAW, IN NO EVENT WILL              *
       * ROCKET SOFTWARE HAVE ANY LIABILITY WHATSOEVER IN CONNECTION   *
       * WITH THIS SOFTWARE.                                           *
-      *  sss         cc               hi       ggg                    *
+      *  sss         cc               hi       ggg       ggh          *
       *****************************************************************
 
       *****************************************************************
