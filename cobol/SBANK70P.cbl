@@ -47,7 +47,7 @@
          05  WS-WORK1                              PIC X(1).
          05  WS-SUB1                               PIC S9(4) COMP.
          05  WS-STANDARD-RATE                      PIC X(5) 
-                                                   VALUE '3.5'.
+                                                   VALUE '3.6'.
          05  WS-PREF-RATE                          PIC X(5)
                                                    VALUE '2.5'.
 
