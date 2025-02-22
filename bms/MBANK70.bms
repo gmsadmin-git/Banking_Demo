@@ -8,13 +8,13 @@
 * https://www.rocketsoftware.com/company/trust/agreements.            *
 *                                                                     *
 * THIS SOFTWARE IS PROVIDED "AS IS" AND ALL IMPLIED  fde              *
-* WARRANTIES, INCLUDING THE IMPLIED WARRANTIES OF      bvc            *
+* WARRANTIES, INCLUDING THE IMPLIED WARRANTIES OF                     *
 * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE,               *
-* SHALL NOT APPLY.vvv                                                 *
-* TO THE EXTENT PERM  TED BY LAW, IN NO EVENT WILL    g cb            *
+* SHALL NOT APPLY.                                                    *
+* TO THE EXTENT PERM  TED BY LAW, IN NO EVENT WILL                    *
 * ROCKET SOFTWARE HAVE ANY LIABILITY WHATSOEVER IN CONNECTION         *
-* WITH THIS SOFTWARE.   ggg         hh                                *
-*  h   hi        hello     hrllo    vc  ff    jie        123    76    *
+* WITH THIS SOFTWARE.                                                 *
+*                                                                     *
 ***********************************************************************
 MBANK70 DFHMSD BASE=MAPAREA,                                           -
                LANG=COBOL,                                             -
@@ -91,8 +91,8 @@ TXT06   DFHMDF ATTRB=(ASKIP,NORM),                                     -
                COLOR=TURQUOISE,                                        -
                LENGTH=39,                                              -
                POS=(10,5),                                             -
-               INITIAL='At an interest rate of.............:'
-RATE    DFHMDF ATTRB=(ASKIP,NORM),                                     -
+               INITIAL='At an interest rate of................:'
+RATE    DFHMDF ATTRB=(FSET,UNPROT),                                    -
                COLOR=GREEN,                                            -
                LENGTH=7,                                               -
                POS=(10,45),                                            -
