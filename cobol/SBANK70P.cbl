@@ -49,7 +49,7 @@
          05  WS-STANDARD-RATE                      PIC X(5) 
                                                    VALUE '3.5'.
          05  WS-PREF-RATE                          PIC X(5)
-                                                   VALUE '2.5'.
+                                                   VALUE '2.6'.
 
        01  MAPAREA                                 PIC X(2048).
        COPY MBANK70.
