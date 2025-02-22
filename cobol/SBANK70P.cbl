@@ -14,13 +14,13 @@
       * TO THE EXTENT PERMITTED BY LAW, IN NO EVENT WILL              *
       * ROCKET SOFTWARE HAVE ANY LIABILITY WHATSOEVER IN CONNECTION   *
       * WITH THIS SOFTWARE.                                           *
-      *  sss   tes   cc      test     hi       ggg       ggh          *
+      *                                                               *
       *****************************************************************
 
       *****************************************************************
       * Program:     SBANK70P.CBL (CICS Version)                      *
       * Layer:       Screen handling                                  *
-      * Functiox :    Calculatethe   of loan   hello                  *
+      * Functiox :    Calculate the loan                              *
       *****************************************************************
 
        IDENTIFICATION DIVISION.
@@ -46,10 +46,6 @@
          05  WS-SAVED-EIBCALEN                     PIC S9(4) COMP.
          05  WS-WORK1                              PIC X(1).
          05  WS-SUB1                               PIC S9(4) COMP.
-         05  WS-STANDARD-RATE                      PIC X(5) 
-                                                   VALUE '3.6'.
-         05  WS-PREF-RATE                          PIC X(5)
-                                                   VALUE '2.5'.
 
        01  MAPAREA                                 PIC X(2048).
        COPY MBANK70.
@@ -260,15 +256,9 @@
            MOVE BANK-ERROR-MSG TO ERRMSGO IN BANK70AO.
       * Move in screen specific fields
            MOVE BANK-SCR70-AMOUNT TO AMOUNTO IN BANK70AO.
-      *    MOVE BANK-SCR70-RATE TO RATEO IN BANK70AO.
-           IF  BANK-USERID(1:1) = 'B'
-               MOVE WS-STANDARD-RATE TO RATEO IN BANK70AO
-           END-IF
-           IF BANK-USERID(1:1) ='T'
-               MOVE WS-PREF-RATE TO RATEO IN BANK70AO
-           END-IF
+           MOVE BANK-SCR70-RATE TO RATEO IN BANK70AO.
            MOVE BANK-SCR70-TERM TO TERMO IN BANK70AO.
-            MOVE BANK-SCR70-PAYMENT TO PAYMENTO IN BANK70AO.
+           MOVE BANK-SCR70-PAYMENT TO PAYMENTO IN BANK70AO.
       * Turn colour off if required
            IF COLOUR-OFF
               MOVE DFHGREEN TO TXT01C IN BANK70AO
