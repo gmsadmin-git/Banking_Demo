@@ -336,6 +336,7 @@
       * Move in screen specific fields
            MOVE BANK-SCR70-AMOUNT TO EXT-OP70-AMOUNT.
            MOVE BANK-SCR70-RATE TO EXT-OP70-RATE.
+      * paul     
            MOVE BANK-SCR70-TERM TO EXT-OP70-TERM.
            MOVE BANK-SCR70-PAYMENT TO EXT-OP70-PAYMENT.
 
