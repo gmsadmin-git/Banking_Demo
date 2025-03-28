@@ -10,7 +10,7 @@
       * THIS SOFTWARE IS PROVIDED "AS IS" AND ALL IMPLIED             *
       * WARRANTIES, INCLUDING THE IMPLIED WARRANTIES OF               *
       * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE,         *
-      * SHALL NOT APPLY.                                              *
+      * SHALL NOT APPLY. test                                         *
       * TO THE EXTENT PERMITTED BY LAW, IN NO EVENT WILL              *
       * ROCKET SOFTWARE HAVE ANY LIABILITY WHATSOEVER IN CONNECTION   *
       * WITH THIS SOFTWARE.                                           *
