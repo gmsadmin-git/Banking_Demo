@@ -1,20 +1,20 @@
 ***********************************************************************
-*                                                                     *
+*  hello. . test . 1   512   12 . . , 76      test       rest     b   *
 * Copyright 2010 – 2024 Rocket Software, Inc. or its affiliates.      *
-* This software may be used, modified, and distributed                *
-* (provided this notice is included without modification)             *
-* solely for internal demonstration purposes with other               *
-* Rocket products, and is otherwise subject to the EULA at           *
-* https://www.rocketsoftware.com/company/trust/agreements.            *
-*                                                                     *
-* THIS SOFTWARE IS PROVIDED "AS IS" AND ALL IMPLIED                   *
-* WARRANTIES, INCLUDING THE IMPLIED WARRANTIES OF                     *
-* MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE,               *
-* SHALL NOT APPLY.                                                    *
-* TO THE EXTENT PERMITTED BY LAW, IN NO EVENT WILL                    *
-* ROCKET SOFTWARE HAVE ANY LIABILITY WHATSOEVER IN CONNECTION         *
-* WITH THIS SOFTWARE.                                                 *
-*                                                                     *
+* This software may be used, modified, and distributed  . testing     *
+* (provided this notice is included without modification)  .   .      *
+* solely for internal demonstration purposes with other     ,         *
+* Rocket products, and is otherwise subject to the EULA at  test      *
+* https://www.rocketsoftware.com/company/trust/agreements.   .  .     *
+*      bvvb       trest  12345        testing  111    trt             *
+* THIS SOFTWARE IS PROVIDED "AS IS" AND ALL IMPLIED    test hj    .   *
+* WARRANTIES, INCLUDING THE IMPLIED WARRANTIES OF  . .    . ,         *
+* MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE,    123        *
+* SHALL NOT APPLY.       test         n      test   .      n          *
+* TO THE EXTENT PERMITTED BY LAW, IN NO EVENT WILL    ragu    bhava   *
+* ROCKET SOFTWARE HAVE ANY LIABILITY WHATSOEVER IN CONNECTION  123    *
+* WITH THIS SOFTWARE. ,   .    .      ff        nm     .    tes       *
+*    bbx    123    hi   b  bhava    harish   prabha    ragu  test     *
 ***********************************************************************
 MBANK70 DFHMSD BASE=MAPAREA,                                           -
                LANG=COBOL,                                             -
@@ -92,7 +92,7 @@ TXT06   DFHMDF ATTRB=(ASKIP,NORM),                                     -
                LENGTH=39,                                              -
                POS=(10,5),                                             -
                INITIAL='At an interest rate of................:'
-RATE    DFHMDF ATTRB=(FSET,UNPROT),                                    -
+RATE    DFHMDF ATTRB=(FSET,PROT),                                      -
                COLOR=GREEN,                                            -
                LENGTH=7,                                               -
                POS=(10,45),                                            -
