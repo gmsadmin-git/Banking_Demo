@@ -1,0 +1,193 @@
+{
+  "records": [
+    {
+      "id": "DBB API Version",
+      "type": "VERSION",
+      "version": "2.0.2.1",
+      "build": "3257",
+      "date": "26-Jun-2024 16:22:41"
+    },
+    {
+      "id": "DBB Build Mode",
+      "type": "BUILD_MODE",
+      "build-mode": "NORMAL"
+    },
+    {
+      "id": "CREATE_PDS_1",
+      "type": "CREATE_PDS",
+      "dataset": "ADCDMST.BANKDEMO.COBOL",
+      "options": "cyl space(1,1) lrecl(80) dsorg(PO) recfm(F,B) dsntype(library)",
+      "exists": true
+    },
+    {
+      "id": "CREATE_PDS_2",
+      "type": "CREATE_PDS",
+      "dataset": "ADCDMST.BANKDEMO.COPY",
+      "options": "cyl space(1,1) lrecl(80) dsorg(PO) recfm(F,B) dsntype(library)",
+      "exists": true
+    },
+    {
+      "id": "CREATE_PDS_3",
+      "type": "CREATE_PDS",
+      "dataset": "ADCDMST.BANKDEMO.OBJ",
+      "options": "cyl space(1,1) lrecl(80) dsorg(PO) recfm(F,B) dsntype(library)",
+      "exists": true
+    },
+    {
+      "id": "CREATE_PDS_4",
+      "type": "CREATE_PDS",
+      "dataset": "ADCDMST.BANKDEMO.DBRM",
+      "options": "cyl space(1,1) lrecl(80) dsorg(PO) recfm(F,B) dsntype(library)",
+      "exists": true
+    },
+    {
+      "id": "CREATE_PDS_5",
+      "type": "CREATE_PDS",
+      "dataset": "ADCDMST.BANKDEMO.LOAD",
+      "options": "cyl space(1,1) dsorg(PO) recfm(U) blksize(32760) dsntype(library)",
+      "exists": true
+    },
+    {
+      "id": "COPY_TO_PDS_1",
+      "type": "COPY_TO_PDS",
+      "source": "/u/adcdmst/workspace/Banking_Demo/cobol/SBANK70P.cbl",
+      "destination": "ADCDMST.BANKDEMO.COBOL(SBANK70P)",
+      "mode": "TEXT"
+    },
+    {
+      "id": "COPY_TO_PDS_2",
+      "type": "COPY_TO_PDS",
+      "source": "/u/adcdmst/workspace/Banking_Demo/copybook/CBANKEXT.cpy",
+      "destination": "ADCDMST.BANKDEMO.COPY(CBANKEXT)",
+      "mode": "TEXT"
+    },
+    {
+      "id": "COPY_TO_PDS_3",
+      "type": "COPY_TO_PDS",
+      "source": "/u/adcdmst/workspace/Banking_Demo/copybook/CDATED.cpy",
+      "destination": "ADCDMST.BANKDEMO.COPY(CDATED)",
+      "mode": "TEXT"
+    },
+    {
+      "id": "COPY_TO_PDS_4",
+      "type": "COPY_TO_PDS",
+      "source": "/u/adcdmst/workspace/Banking_Demo/copybook/CABENDD.cpy",
+      "destination": "ADCDMST.BANKDEMO.COPY(CABENDD)",
+      "mode": "TEXT"
+    },
+    {
+      "id": "COPY_TO_PDS_5",
+      "type": "COPY_TO_PDS",
+      "source": "/u/adcdmst/workspace/Banking_Demo/copybook/CABENDPO.cpy",
+      "destination": "ADCDMST.BANKDEMO.COPY(CABENDPO)",
+      "mode": "TEXT"
+    },
+    {
+      "id": "COPY_TO_PDS_6",
+      "type": "COPY_TO_PDS",
+      "source": "/u/adcdmst/workspace/Banking_Demo/copybook/CSCRNHDD.cpy",
+      "destination": "ADCDMST.BANKDEMO.COPY(CSCRNHDD)",
+      "mode": "TEXT"
+    },
+    {
+      "id": "COPY_TO_PDS_7",
+      "type": "COPY_TO_PDS",
+      "source": "/u/adcdmst/workspace/Banking_Demo/copybook/CSCRNHP1.cpy",
+      "destination": "ADCDMST.BANKDEMO.COPY(CSCRNHP1)",
+      "mode": "TEXT"
+    },
+    {
+      "id": "COPY_TO_PDS_8",
+      "type": "COPY_TO_PDS",
+      "source": "/u/adcdmst/workspace/Banking_Demo/copybook/CSCRNHP2.cpy",
+      "destination": "ADCDMST.BANKDEMO.COPY(CSCRNHP2)",
+      "mode": "TEXT"
+    },
+    {
+      "id": "COPY_TO_PDS_9",
+      "type": "COPY_TO_PDS",
+      "source": "/u/adcdmst/workspace/Banking_Demo/copybook/CVERSNP1.cpy",
+      "destination": "ADCDMST.BANKDEMO.COPY(CVERSNP1)",
+      "mode": "TEXT"
+    },
+    {
+      "id": "COPY_TO_PDS_10",
+      "type": "COPY_TO_PDS",
+      "source": "/u/adcdmst/workspace/Banking_Demo/copybook/CTRACE.cpy",
+      "destination": "ADCDMST.BANKDEMO.COPY(CTRACE)",
+      "mode": "TEXT"
+    },
+    {
+      "id": "COPY_TO_PDS_11",
+      "type": "COPY_TO_PDS",
+      "source": "/u/adcdmst/workspace/Banking_Demo/copybook/MBANK70.cpy",
+      "destination": "ADCDMST.BANKDEMO.COPY(MBANK70)",
+      "mode": "TEXT"
+    },
+    {
+      "id": "COPY_TO_PDS_12",
+      "type": "COPY_TO_PDS",
+      "source": "/u/adcdmst/workspace/Banking_Demo/copybook/CBANKDAT.cpy",
+      "destination": "ADCDMST.BANKDEMO.COPY(CBANKDAT)",
+      "mode": "TEXT"
+    },
+    {
+      "id": "COPY_TO_PDS_13",
+      "type": "COPY_TO_PDS",
+      "source": "/u/adcdmst/workspace/Banking_Demo/copybook/CVERSND.cpy",
+      "destination": "ADCDMST.BANKDEMO.COPY(CVERSND)",
+      "mode": "TEXT"
+    },
+    {
+      "id": "EXECUTE_1",
+      "type": "EXECUTE",
+      "command": "IGYCRCTL",
+      "options": "LIB,LIST,NOSEQ,MAP,DATA(31),RENT,CICS",
+      "rc": 0,
+      "file": "Banking_Demo/cobol/SBANK70P.cbl",
+      "outputs": [
+        {
+          "dataset": "ADCDMST.BANKDEMO.OBJ(SBANK70P)",
+          "deployType": "OBJ"
+        }
+      ],
+      "datasets": [
+        "ADCDMST.BANKDEMO.COBOL(SBANK70P)"
+      ],
+      "logs": [
+        "/u/adcdmst/sandbox/logs/SBANK70P.log"
+      ]
+    },
+    {
+      "id": "COPY_TO_HFS_1",
+      "type": "COPY_TO_HFS",
+      "source": "SYSPRINT",
+      "destination": "/u/adcdmst/sandbox/logs/SBANK70P.log",
+      "mode": "TEXT"
+    },
+    {
+      "id": "EXECUTE_2",
+      "type": "EXECUTE",
+      "command": "IEWBLINK",
+      "options": "LIST,MAP,XREF,RENT,AMODE(31),RMODE(ANY)",
+      "rc": 0,
+      "file": "Banking_Demo/cobol/SBANK70P.cbl",
+      "outputs": [
+        {
+          "dataset": "ADCDMST.BANKDEMO.LOAD(SBANK70P)",
+          "deployType": "CICSLOAD"
+        }
+      ],
+      "logs": [
+        "/u/adcdmst/sandbox/logs/SBANK70P.log"
+      ]
+    },
+    {
+      "id": "COPY_TO_HFS_2",
+      "type": "COPY_TO_HFS",
+      "source": "SYSPRINT",
+      "destination": "/u/adcdmst/sandbox/logs/SBANK70P.log",
+      "mode": "TEXT"
+    }
+  ]
+}
