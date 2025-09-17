@@ -15,7 +15,7 @@
       * ROCKET SOFTWARE HAVE ANY LIABILITY WHATSOEVER IN CONNECTION   *
       * WITH THIS SOFTWARE.                                           *
       *                                                               *
-      *****************************************************************
+      **feature/testfepoc***************************************
 
       *****************************************************************
       * Program:     SBANK70P.CBL (CICS Version)                      *
